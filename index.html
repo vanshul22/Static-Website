@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Static Website</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -14,8 +15,8 @@
         <nav class="nav-bar">
             <!-- Navigation Logo Here -->
             <div id="logo-area">
-                <span id="upper-logo">Brand LOGO</span>
-                <span id="lower-logo">Brand Tagline</span>
+                <span class="upper-logo">Brand LOGO</span>
+                <span class="lower-logo">Brand Tagline</span>
             </div>
             <!-- Navigation Items Here -->
             <ul>
@@ -33,29 +34,156 @@
 
     <!-- Section First Start Here -->
     <section id="section-1">
-        <!-- Headings -->
-        <div>Enterprise Marketing</div>
-        <div>And</div>
-        <div>Customer Experiance</div>
-
-        <div>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+        <div id="sec1-container">
+            <!-- Headings -->
+            <div>Enterprise Marketing</div>
+            <div>And</div>
+            <div>Customer Experiance</div>
+            <!-- Paragraph -->
+            <div>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+            </div>
+            <!-- Know More Button and upper logo-->
+            <button id="sec1-btn">KNOW MORE</button>
+            <!-- We have to add key for FontAwesome website -->
+            <div><i class="fas fa-angle-double-down"></i></div>
         </div>
-        <!-- Know More Button -->
-        <button id="sec1-btn">KNOW MORE</button>
-        <div><img src="" alt="" /></div>
     </section>
 
 
     <!-- Section Two Start Here -->
     <section id="section-2">
-
+        <div id="sec2-container">
+            <div id="sec2-container1"></div>
+            <div id="sec2-container2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</div>
+            <div id="sec2-container3"><img src="/images/TaskImage1.png" alt="TaskImage1.png"></div>
+        </div>
     </section>
 
 
     <!-- Section Three Start Here -->
     <section id="section-3">
+        <div id="sec3-container">
+            <div id="sec3-container1">Firm Overview</div>
+            <div id="sec3-container2"><img src="/images/TaskImage2.jpg" alt="TaskImage2.jpg"></div>
+            <div id="sec3-container3">
 
+                <div>
+                    <span><img src="" alt="sign1"></span>
+                    <span>Data and Analytics</span>
+                </div>
+
+                <div>
+                    <span>Co-commercialization</span>
+                    <span><img src="" alt="sign2"></span>
+                </div>
+
+                <div>
+                    <span><img src="" alt="sign3"></span>
+                    <span>R&D/Medical Transformation</span>
+                </div>
+
+                <div>
+                    <span>Digital Transformation</span>
+                    <span><img src="" alt="sign4"></span>
+                </div>
+
+                <div>
+                    <span><img src="" alt="sign5"></span>
+                    <span>Creative and Experience Design</span>
+                </div>
+
+                <div>
+                    <span>Customer Experiance</span>
+                    <span><img src="" alt="sign6"></span>
+                </div>
+            </div>
+        </div>
     </section>
+
+
+    <!-- Section Four Start Here -->
+    <section id="section-4">
+        <div>
+            <h2>Testimonials</h2>
+            <div id="sec4-container">
+                <div id="sec4-container1">
+                    <div class="box">
+                        <img src="" alt="face1">
+                        <h2 class="center">COOSaralane, XYZ COO</h2>
+                        <p class="center">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor"</p>
+                    </div>
+                </div>
+                <div id="sec4-container2">
+                    <div class="box">
+                        <img src="" alt="face2">
+                        <h2 class="center">COOSaralane, XYZ COO</h2>
+                        <p class="center">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor"</p>
+                    </div>
+                </div>
+                <div id="sec4-container3">
+                    <div class="box">
+                        <img src="" alt="face3">
+                        <h2 class="center">COOSaralane, XYZ COO</h2>
+                        <p class="center">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Five Start Here -->
+    <section id="section-5">
+        <div>
+            <h3>Get In Touch Today!</h3>
+        </div>
+        <div id="sec5-container">
+            <!-- Contact Form -->
+            <form action="" method="post">
+
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="number">Phone No.</label>
+                <input type="number" name="number" id="number">
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email">
+
+                <label for="description">Brief Description</label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3 id="footer-container1">Connect with us</h3>
+
+            <div id="footer-container2">
+                <img src="" alt="logo1">
+                <img src="" alt="logo2">
+                <img src="" alt="logo3">
+                <img src="" alt="logo4">
+                <img src="" alt="logo5">
+            </div>
+
+            <div id="footer-container3">
+                <span class="upper-logo">Brand LOGO</span>
+                <span class="lower-logo">Brand Tagline</span>
+            </div>
+
+            <div id="footer-container4">
+                <div>
+                    Copyright &copy; 2021 - All Rights Reserved
+                </div>
+                <div>
+                    Please read our Privacy Policy &amp; Cookie Policy for more details.
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
