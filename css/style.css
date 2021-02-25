@@ -104,6 +104,60 @@ button#sec1-btn{
     margin: 0rem 0rem 0rem 40vw;
     padding: 0.8rem 2rem 0.8rem 2rem;
 }
+
 button#sec1-btn:hover{
     background-color: #2C683C;
+}
+
+
+/* SECTION-2 */
+#section-2{
+    height: 99vh;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+#sec2-container{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+#sec2-container1{
+    /* border: 2px solid red; */
+    color: white;
+    float: left;
+    left: 20vw;
+    top: 92vh;
+    position: absolute;
+    height: 83vh;
+    width: 30vw;
+    background-color: #2C683C;
+}
+
+#sec2-container1 h2{
+    font-size: 3rem;
+    color: #2C683C;
+    background-color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+#sec2-container1 p{
+    font-size: 1.7rem;
+    padding: 3em 1em 0em 0em;
+
+}
+
+#sec2-container2{
+    /* border: 2px solid red; */
+    background-color: #2C683C;    
+}
+
+#sec2-container3{
+    width: 101vh;
+    /* border: 2px solid red; */
+}
+#sec2-container3 img{
+    width: 101vh;
+    height: 83vh;
+    /* border: 2px solid red; */
 }
