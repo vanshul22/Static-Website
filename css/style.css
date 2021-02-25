@@ -10,10 +10,12 @@
     grid-gap: 5rem;
     font-weight:bold;
 }
+
 #logo-area{
     color: #2C683C;
     cursor: pointer;
 }
+
 .upper-logo{
     font-size: 28px;
     margin: 2rem 0rem 0rem 3rem;
@@ -52,6 +54,56 @@ button#nav-btn{
     font-size: 1.2rem;
     cursor: pointer;
 }
+
 button#nav-btn:hover{
-    
+    background-color: #48CA70;
+    color: white;
+}
+
+
+/* SECTION FIRST */
+#section-1{
+    background-color: #a8c0ae;
+    height: 82vh;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+#sec1-container{
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 4rem 1rem 1rem 1rem;
+}
+
+#sec1-container h1{
+    font-size: 3.5rem;
+    color: white;
+}
+
+#sec1-container h1:nth-child(1){
+    margin-left: 15rem;
+}
+
+#sec1-container h1:nth-child(2){
+    text-align: center;
+    padding-left: 5rem;
+}
+
+#sec1-container h1:nth-child(3){
+    margin-left: 33rem;
+}
+
+#sec1-container h3{
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 3rem 12rem 3rem 13rem;
+    color: #2C683C;
+}
+
+button#sec1-btn{
+    color: white;
+    background-color: #48CA70;
+    margin: 0rem 0rem 0rem 40vw;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+}
+button#sec1-btn:hover{
+    background-color: #2C683C;
 }
