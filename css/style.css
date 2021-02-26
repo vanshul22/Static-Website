@@ -6,8 +6,7 @@
 /* NAVIGATION BAR */
 .nav-bar{
     display: grid;
-    grid-template-columns: 3fr 7fr 2fr;
-    grid-gap: 5rem;
+    grid-template-columns: 3fr 5fr 1fr;
     font-weight:bold;
 }
 
@@ -50,9 +49,10 @@
 button#nav-btn{
     background-color: #2C683C;
     color: white;
-    margin: 2.5rem 2rem 1.5rem 1rem;
+    margin: 2.5rem 2rem 1.5rem -3rem;
     font-size: 1.2rem;
     cursor: pointer;
+    border: none;
 }
 
 button#nav-btn:hover{
@@ -64,7 +64,7 @@ button#nav-btn:hover{
 /* SECTION FIRST */
 #section-1{
     background-color: #a8c0ae;
-    height: 87vh;
+    height: 97vh;
     padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -103,10 +103,22 @@ button#sec1-btn{
     background-color: #48CA70;
     margin: 0rem 0rem 0rem 40vw;
     padding: 0.8rem 2rem 0.8rem 2rem;
+    border: none;
 }
 
 button#sec1-btn:hover{
     background-color: #2C683C;
+}
+
+#sec1-container span{
+    padding: 0px 8px;
+}
+
+#sec1-container img{
+    height: 40px;
+    width: 41px;
+    margin: -15px -11px;
+    cursor: pointer;
 }
 
 
@@ -125,7 +137,7 @@ button#sec1-btn:hover{
     color: white;
     float: left;
     left: 20vw;
-    top: 98vh;
+    top: 108vh;
     position: absolute;
     height: 88.7vh;
     width: 30vw;
@@ -161,19 +173,18 @@ button#sec1-btn:hover{
 
 /* SECTION-3 */
 #section-3{
-    margin: 8rem 0rem 0rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
     height: 100vh;
 }
 #sec3-container{
     display: grid;
-    grid-template-columns: 6fr 6fr
-;
+    grid-template-columns: 6fr 6fr;
 }
 
 #sec3-container1{
     float: left;
     left: 14vw;
-    top: 200vh;
+    top: 212vh;
     position: absolute;
     height: 30vh;
     width: 40vw;
@@ -190,20 +201,46 @@ button#sec1-btn:hover{
     top: 7rem;
 }
 
-#sec3-container3{
-    background-color: #48CA70;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: repeat(2fr);
-    justify-content: center;
-}
-#sec3-container3 div{
-    margin: 3rem 0rem 0rem 0rem;
-}
-
 #sec3-container2 img{
     width: 102vh;
     height: 83vh;
+}
+
+#sec3-container3{
+    background-color: #48CA70;
+    height: 100vh;
+    /* display: grid; */
+    /* grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr; */
+    /* justify-content: center; */
+}
+#sec3-container3 img{
+    height: 92px;
+}
+
+#sec3-container3 span:nth-child(odd){
+    background-color: black;
+    float: right;
+    position: relative;
+    right: 25px;
+}
+#sec3-container3 span:nth-child(even){
+    background-color: blue;
+    float: left;
+    position: relative;
+    left: 25px;
+}
+
+#sec3-container3 img:nth-child(odd){
+    background-color: black;
+    float: right;
+    position: relative;
+    right: 25px;
+}
+#sec3-container3 img:nth-child(even){
+    background-color: blue;
+    float: left;
+    position: relative;
+    left: 25px;
 }
 
 
@@ -225,26 +262,120 @@ button#sec1-btn:hover{
 
 #sec4-container .box{
     height: 80vh;
-    border: 3px solid brown;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 3rem 1rem 1rem 1rem;
-    border-radius: 2rem;
+    margin: 0rem 1rem 1rem 1rem;
 }
 
 #sec4-container .box img{
-    border-radius: 15rem;
-    height: 100px;
-    margin: auto;
+    border: 4px solid #2C683C;
+    border-radius: 10rem;
+    height: 20rem;
+    margin: 0rem auto 3rem auto;
     display: block;
 }
 
 #sec4-container .box h2{
-text-align: center;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 0 0 2rem 0;
+
 }
 
 #sec4-container .box p{
     text-align: center;
     color: #2C683C;
-    font-size: 1.5rem;
-    font-weight:600;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+/* SECTION-5 */
+#section-5{
+    height: 90vh;
+}
+#section-5::before{
+    content: "";
+    background: url(/images/TaskImage3.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 188rem;
+    z-index: -1;
+    width: 100%;
+    height: 93%;
+    opacity: 0.4;
+
+}
+#section-5 h3{
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 4rem 0rem 1rem 0rem;
+    color: white;
+}
+
+#sec5-container{
+    height: 70%;
+    width: 100%;
+}
+#sec5-container input{
+    outline: none;
+    background: none;
+    border: none;
+    height: 1.7rem;
+    font-size: 1.2rem;
+    width: 20rem;
+    padding-left: 0.5rem;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+#sec5-container input:nth-child(1){
+    top: 7rem;
+    left: 14rem;
+}
+#sec5-container input:nth-child(3n+2){
+    top: 8rem;
+    left: 14rem;
+}
+#sec5-container input:nth-child(3){
+    top: 14rem;
+    left: 14rem;
+}
+
+#sec5-container label{
+    color: grey;
+    position: relative;
+    top: -6rem;
+    left: 48rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#sec5-container textarea{
+    outline: none;
+    background: none;
+    border: 1px solid white;
+    position: relative;
+    top: 4rem;
+    left: 37.5rem;
+}
+
+::placeholder{
+    color: grey
+    ;
+    font-weight: bold;
+}
+button#sub-btn{
+    color: #2C683C;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    margin: 0rem 0rem;
+    background: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 7rem;
+    left: 36rem;
+}
+button#sub-btn:hover{
+    color: #48CA70;
+    font-weight: bold;
 }
