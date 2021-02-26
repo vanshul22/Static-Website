@@ -209,35 +209,35 @@ button#sec1-btn:hover{
 #sec3-container3{
     background-color: #48CA70;
     height: 100vh;
-    /* display: grid; */
-    /* grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr; */
-    /* justify-content: center; */
+    
+}
+.item{
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #sec3-container3 img{
     height: 92px;
 }
 
 #sec3-container3 span:nth-child(odd){
-    background-color: black;
     float: right;
     position: relative;
     right: 25px;
 }
 #sec3-container3 span:nth-child(even){
-    background-color: blue;
     float: left;
     position: relative;
     left: 25px;
 }
 
 #sec3-container3 img:nth-child(odd){
-    background-color: black;
     float: right;
     position: relative;
     right: 25px;
 }
 #sec3-container3 img:nth-child(even){
-    background-color: blue;
     float: left;
     position: relative;
     left: 25px;
