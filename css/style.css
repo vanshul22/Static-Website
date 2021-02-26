@@ -291,7 +291,7 @@ button#sec1-btn:hover{
 
 /* SECTION-5 */
 #section-5{
-    height: 90vh;
+    height: 82vh;
 }
 #section-5::before{
     content: "";
@@ -374,8 +374,48 @@ button#sub-btn{
     position: relative;
     top: 7rem;
     left: 36rem;
+    font-size: 1.1rem;
 }
 button#sub-btn:hover{
     color: #48CA70;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer::before{
+    content: "";
+    background: url(/images/bg.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 226rem;
+    z-index: -1;
+    width: 100%;
+    height: 60%;
+}
+footer h3{
+    color: white;
+    text-align: center;
+    margin: 1rem 0rem 1rem -1rem;
+    font-size: 2.3rem;
+}
+footer #footer-container2{
+    margin: 0 auto;
+    width: 25%;
+}
+footer #footer-container2 img{
+    width: 50px;
+    margin: 0px 5px 11px 6px;
+    cursor: pointer;
+}
+
+footer #footer-container3{
+    color: white;
+}
+
+footer #footer-container4{
+    text-align: center;
+    position: relative;
+    top: 5.6rem;
+    font-size: 1.9rem;
     font-weight: bold;
 }
