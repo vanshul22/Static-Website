@@ -298,18 +298,7 @@ button#sec1-btn:hover{
 #section-5{
     height: 82vh;
 }
-#section-5::before{
-    content: "";
-    background: url(/images/TaskImage3.jpg) no-repeat center center;
-    background-size: cover;
-    position: absolute;
-    top: 188rem;
-    z-index: -1;
-    width: 100%;
-    height: 93%;
-    opacity: 0.4;
 
-}
 #section-5 h3{
     text-align: center;
     font-size: 2.3rem;
@@ -386,20 +375,11 @@ button#sub-btn:hover{
 }
 
 /* FOOTER */
-footer::before{
-    content: "";
-    background: url(/images/bg.jpg) no-repeat center center;
-    background-size: cover;
-    position: absolute;
-    top: 226rem;
-    z-index: -1;
-    width: 100%;
-    height: 60%;
-}
+
 footer h3{
     color: white;
     text-align: center;
-    margin: 1rem 0rem 1rem -1rem;
+    margin: 3rem 0rem 1rem -1rem;
     font-size: 2.3rem;
 }
 footer #footer-container2{
