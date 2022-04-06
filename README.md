@@ -1,4 +1,4 @@
 # Static-Website-Task
-Task Project 
+This is a static Web page.
 
-[Click Here](https://vanshul22.github.io/Static-Website/)
+To check live page please [Click Here](https://vanshul22.github.io/Static-Website/).
